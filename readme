@@ -1,10 +1,12 @@
-# Background
+#Background
 Music evolves from simple patterned sounds back in ancient time to a rich, well developed, and universal culture around the world. Meanwhile, the uniqueness and commonness long existed in the population lead to discrepancy in tastes and contribute to formations of music genres. One might accurately identify the type of a song with perception, yet such self-developed standard hardly ever tells the whole story about either the song or the genre. Nowadays, we are no longer restricted by perception based criteria. Instead, quantitative measures that describe music features and widely used in music analysis, will assist us in providing more insights in a song and the genre it belongs (Ridley and Dumovic, 2016). 
-# Motivation
+
+#Motivation
 With the rise of multiple music platforms such as Spotify, Pandora, Youtube music, Apple music etc., music classification receives extra attentions as the music providers aim to understand the population and provide more customized services. Songs are no longer restricted to musical characteristics labels (R&B, Hip Hop, Classical, Blues, Jazz etc.). Event-based labels such as “chill”, “diner”, “party” etc. are created by the music providers to better suit the customers' needs in various scenarios. Analyzing the categories using audio features could provide better understanding of music in general, meanwhile assisting music providers to offer more accurately customized services.
 Music trending is another important aspect that the music providers hope to have a grasp on, since it helps them understands the customers' preference better. People often say “this song is so popular right now”. However, what perceptually makes a song popular is vague and varies from one to another. By introducing sound feature into analysis of music trending, we hope to offer insights on a more fundamental level.
 By digging into both aspects of music, we may help the music providers to come up with solutions that better serve the population.
-# Overview of the project
+
+#Overview of the project
 This study begins with data collection phase. Then we use a block to describe basic exploratory work centered around audio features.  Descriptive analysis also inclues clustering analysis and association rule analysis is used on audio features of songs.  Next block is the predictive analysis, in which we conduct 3 hypothesis, both in statistics and machine learning. In particular, we apply 5 methods on all our datasets to do the binary classification on music genres. Machine learning techniques turns out to works effectively on our datasets. 
  After analysis of all numeric features of the dataset, we consider use text information available to improve our analysis. Topic modelling is used to discover topic distribution among song names and network analysis is conducted to find the pattern between artists and themes.  
 There are a series of visualisation through our analysis, tools used including wordcloud, plotly, tableau and  python plot library. 
